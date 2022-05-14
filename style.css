@@ -158,19 +158,19 @@ body {
 }
 
 #slide__one {
-	background-image: url(../assets/images/image_one.webp);
+	background-image: url(./assets/images/image_one.webp);
 }
 
 #slide__two {
-	background-image: url(../assets/images/image_two.webp);
+	background-image: url(./assets/images/image_two.webp);
 }
 
 #slide__three {
-	background-image: url(../assets/images/image_three.webp);
+	background-image: url(./assets/images/image_three.webp);
 }
 
 #slide__four {
-	background-image: url(../assets/images/image_four.webp);
+	background-image: url(./assets/images/image_four.webp);
 }
 
 
