@@ -104,8 +104,8 @@ body {
 #i4:checked~.nav__panel #nav_slide #dot4 {
 	background-color: black;
 	border: 0.2em solid rgb(83, 167, 245);
-	width: 1.8em;
-	height: 1.8em;
+	width: 1.6em;
+	height: 1.6em;
 }
 
 #i1:checked~.nav__panel #nav_slide #dot1:hover,
