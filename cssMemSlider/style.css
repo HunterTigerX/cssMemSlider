@@ -63,7 +63,7 @@ body {
 	height: auto;
 	margin: 0 0 auto auto;
 	justify-content: right;
-	gap: 1vw;
+
 }
 
 .dots {
@@ -74,15 +74,26 @@ body {
 	background-color: rgb(83, 167, 245);
 	border-radius: 100%;
 	transition: .4s;
+	margin: 0.5vh auto;
+	z-index: 5;
+}
+
+.dots2 {
+	position: relative;
+	display: inline-block;
+	width: 2.7em;
+	height: 2.7em;
+	transition: .4s;
 }
 
 .dots:hover {
 	background-color: white;
 }
 
-.dots:checked:hover {
-	border-color: white;
+.dots2:hover .dots {
+	background-color: white;
 }
+
 
 
 
@@ -101,6 +112,13 @@ body {
 #i2:checked~.nav__panel #nav_slide #dot2:hover,
 #i3:checked~.nav__panel #nav_slide #dot3:hover,
 #i4:checked~.nav__panel #nav_slide #dot4:hover {
+	border-color: white;
+}
+
+#i1:checked~.nav__panel #nav_slide #dot11:hover #dot1,
+#i2:checked~.nav__panel #nav_slide #dot22:hover #dot2,
+#i3:checked~.nav__panel #nav_slide #dot33:hover #dot3,
+#i4:checked~.nav__panel #nav_slide #dot44:hover #dot4 {
 	border-color: white;
 }
 
@@ -198,17 +216,18 @@ body {
 		flex-direction: column-reverse;
 		height: auto;
 	}
+
 	#nav_slide {
 		margin: 5vh auto;
 		width: auto;
-		gap: 1vw;
-
 	}
+
 	#nav_text {
 		margin: 1vh auto auto 0;
 		width: 100%;
 		max-width: 100%;
 	}
+
 	.slide_text {
 		font-size: 2rem;
 	}
