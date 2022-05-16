@@ -117,6 +117,7 @@ body {
 
 #i1:checked~.nav__panel #nav_text #slide_t_one {
 	display: flex;
+	animation: scroll 1s ease-in-out;
 }
 
 #i2:checked~.nav__panel #nav_text #slide_t_one,
@@ -127,6 +128,7 @@ body {
 
 #i2:checked~.nav__panel #nav_text #slide_t_two {
 	display: flex;
+	animation: scroll 1s ease-in-out;
 }
 
 #i3:checked~.nav__panel #nav_text #slide_t_two,
@@ -137,6 +139,7 @@ body {
 
 #i3:checked~.nav__panel #nav_text #slide_t_three {
 	display: flex;
+	animation: scroll 1s ease-in-out;
 }
 
 #i4:checked~.nav__panel #nav_text #slide_t_two,
@@ -147,6 +150,7 @@ body {
 
 #i4:checked~.nav__panel #nav_text #slide_t_four {
 	display: flex;
+	animation: scroll 1s ease-in-out;
 }
 
 #i1:checked~#slide__one,
