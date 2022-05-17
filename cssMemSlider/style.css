@@ -88,10 +88,12 @@ body {
 
 .dots:hover {
 	background-color: white;
+	cursor: pointer;
 }
 
 .dots2:hover .dots {
 	background-color: white;
+	cursor: pointer;
 }
 
 
@@ -113,6 +115,7 @@ body {
 #i3:checked~.nav__panel #nav_slide #dot3:hover,
 #i4:checked~.nav__panel #nav_slide #dot4:hover {
 	border-color: white;
+	cursor: pointer;
 }
 
 #i1:checked~.nav__panel #nav_slide #dot11:hover #dot1,
@@ -120,6 +123,7 @@ body {
 #i3:checked~.nav__panel #nav_slide #dot33:hover #dot3,
 #i4:checked~.nav__panel #nav_slide #dot44:hover #dot4 {
 	border-color: white;
+	cursor: pointer;
 }
 
 
