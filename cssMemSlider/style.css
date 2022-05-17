@@ -52,9 +52,6 @@ body {
 	color: white;
 }
 
-
-
-
 #nav_slide {
 	display: flex;
 	height: 100%;
@@ -63,7 +60,10 @@ body {
 	height: auto;
 	margin: 0 0 auto auto;
 	justify-content: right;
-
+	cursor: pointer;
+}
+#nav_slide:hover { 
+	cursor: pointer;
 }
 
 .dots {
@@ -84,6 +84,7 @@ body {
 	width: 2.7em;
 	height: 2.7em;
 	transition: .4s;
+	cursor: pointer;
 }
 
 .dots:hover {
